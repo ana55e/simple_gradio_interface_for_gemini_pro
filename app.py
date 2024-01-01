@@ -50,5 +50,5 @@ chat_interface = gr.Interface(
 
 # Launching all interfaces together in a tabbed view
 iface = gr.TabbedInterface([text_interface, image_interface, chat_interface])
-iface.launch(share=True)
+iface.launch()
 # share=True to share your interface publicly
